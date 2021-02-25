@@ -1,5 +1,5 @@
 ("C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
- 'Universitet\\Code\\Python\\dist\\SimpleCalculator.exe',
+ 'Universitet\\Code\\Python\\SimpleCalculator\\dist\\SimpleCalculator.exe',
  True,
  False,
  False,
@@ -13,7 +13,7 @@
  'SimpleCalculator.pkg',
  [('PYZ-00.pyz',
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
-   'Universitet\\Code\\Python\\build\\SimpleCalculator\\PYZ-00.pyz',
+   'Universitet\\Code\\Python\\SimpleCalculator\\build\\SimpleCalculator\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    "c:\\users\\kasper's "
@@ -37,16 +37,24 @@
    'PYSOURCE'),
   ('SimpleCalculator',
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
-   'Universitet\\Code\\Python\\SimpleCalculator.py',
+   'Universitet\\Code\\Python\\SimpleCalculator\\SimpleCalculator.py',
    'PYSOURCE'),
-  ('python36.dll',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\python36.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
    'BINARY'),
+  ('python36.dll',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\python36.dll',
+   'BINARY'),
+  ('_bz2',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
   ('_socket',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_socket.pyd',
@@ -54,10 +62,6 @@
   ('_lzma',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_lzma.pyd',
-   'EXTENSION'),
-  ('_bz2',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_bz2.pyd',
    'EXTENSION'),
   ('select',
    "c:\\users\\kasper's "
@@ -75,17 +79,13 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
-  ('unicodedata',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
   ('base_library.zip',
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
-   'Universitet\\Code\\Python\\build\\SimpleCalculator\\base_library.zip',
+   'Universitet\\Code\\Python\\SimpleCalculator\\build\\SimpleCalculator\\base_library.zip',
    'DATA'),
   ('SimpleCalculator.exe.manifest',
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
-   'Universitet\\Code\\Python\\build\\SimpleCalculator\\SimpleCalculator.exe.manifest',
+   'Universitet\\Code\\Python\\SimpleCalculator\\build\\SimpleCalculator\\SimpleCalculator.exe.manifest',
    'BINARY'),
   ('pyi-windows-manifest-filename SimpleCalculator.exe.manifest',
    '',
@@ -93,7 +93,7 @@
  [],
  False,
  False,
- 1614286877,
+ 1614287531,
  [('run.exe',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',

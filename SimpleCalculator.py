@@ -85,7 +85,7 @@ def Calcutor(user_string):
 
 def interface():
 
-    print("****************Calculator****************\nYou can do two operands and one operator or one operator and one operand.\nAvalible operators: +, -, *, /.\n% = modulus.\n@ = squareroot.\n! = factorial.\nl = log_2\n& = greatest common divisor\nPress q to exit the program :)")
+    print("[ESMA©]****************Calculator****************[ESMA©]\nYou can do two operands and one operator or one operator and one operand.\nAvalible operators: + - * /\n% = modulus\n@ = squareroot\n! = factorial\nl = log_2\n& = greatest common divisor\nPress q to exit the program :)")
     
     loop_con = True
     while (loop_con):
