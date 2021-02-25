@@ -1,6 +1,5 @@
 import re
 import math
-import os
 
 def add(operand_A, operand_B):
     return float(operand_A) + float(operand_B)
@@ -17,10 +16,10 @@ def divide(operand_A, operand_B):
 def Calcutor(user_string):
 
     try:
-        if not re.match("[0-9\-*+.@!l%&]", user_string):
+        if not re.match("[0-9\-*+.@!l%\&]", user_string):
             return None
 
-        operator_list = re.findall("[/\-*+@!l%&]", user_string)
+        operator_list = re.findall("[/\-*+%\&@!l]", user_string)
         operator = operator_list[0]
 
         operands_array = user_string.split(operator)
@@ -28,7 +27,7 @@ def Calcutor(user_string):
         if operands_array[0] is "":
             operands_array.pop(0)
 
-        if len(operands_array) is 2 and re.match("[\-*+%&]", operator) != None:
+        if len(operands_array) is 2 and re.match("[/\-*+%\&]", operator) != None:
 
             if operator is "*":
                 return multiply(operands_array[0], operands_array[1])
@@ -43,7 +42,7 @@ def Calcutor(user_string):
                 return math.fmod(float(operands_array[0]), float(operands_array[1]))
 
             if operator is "&":
-                return math.gcd(float(operands_array[0]), float(operands_array[1]))
+                return math.gcd(int(operands_array[0]), int(operands_array[1]))
 
             if operator is "/" and float(operands_array[1]) != 0:
                 return divide(operands_array[0], operands_array[1])
@@ -85,7 +84,7 @@ def Calcutor(user_string):
 
 def interface():
 
-    print("[ESMA©]****************Calculator****************[ESMA©]\nYou can do two operands and one operator or one operator and one operand.\nAvalible operators: + - * /\n% = modulus\n@ = squareroot\n! = factorial\nl = log_2\n& = greatest common divisor\nPress q to exit the program :)")
+    print("[ESMA©]****************Calculator****************[ESMA©]\nYou can do two operands and one operator (2+2) or one operator and one operand (@16).\nAvalible operators: + - * /\n% = modulus\n@ = squareroot\n! = factorial\nl = log_2\n& = greatest common divisor\nPress q to exit the program :)")
     
     loop_con = True
     while (loop_con):

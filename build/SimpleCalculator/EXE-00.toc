@@ -39,21 +39,25 @@
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
    'Universitet\\Code\\Python\\SimpleCalculator\\SimpleCalculator.py',
    'PYSOURCE'),
-  ('VCRUNTIME140.dll',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
-   'BINARY'),
   ('python36.dll',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\python36.dll',
    'BINARY'),
+  ('VCRUNTIME140.dll',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('unicodedata',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
   ('_bz2',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('unicodedata',
+  ('select',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_socket',
    "c:\\users\\kasper's "
@@ -62,10 +66,6 @@
   ('_lzma',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_lzma.pyd',
-   'EXTENSION'),
-  ('select',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_hashlib',
    "c:\\users\\kasper's "
@@ -93,7 +93,7 @@
  [],
  False,
  False,
- 1614287531,
+ 1614288555,
  [('run.exe',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',

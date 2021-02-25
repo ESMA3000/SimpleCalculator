@@ -26,9 +26,9 @@
    "C:\\Users\\Kasper's PC\\OneDrive - Aalborg "
    'Universitet\\Code\\Python\\SimpleCalculator\\SimpleCalculator.py',
    'PYSOURCE')],
- [('copy',
+ [('stringprep',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\copy.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\stringprep.py',
    'PYMODULE'),
   ('bz2',
    "c:\\users\\kasper's "
@@ -70,6 +70,10 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\textwrap.py',
    'PYMODULE'),
+  ('copy',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\copy.py',
+   'PYMODULE'),
   ('threading',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\threading.py',
@@ -86,29 +90,53 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\_compression.py',
    'PYMODULE'),
-  ('stringprep',
+  ('os',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\stringprep.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\os.py',
    'PYMODULE'),
-  ('base64',
+  ('subprocess',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\base64.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\subprocess.py',
    'PYMODULE'),
-  ('getopt',
+  ('selectors',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\getopt.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\selectors.py',
+   'PYMODULE'),
+  ('signal',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\signal.py',
+   'PYMODULE'),
+  ('ntpath',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\stat.py',
    'PYMODULE'),
   ('quopri',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\quopri.py',
    'PYMODULE'),
-  ('tokenize',
+  ('getopt',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\tokenize.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\getopt.py',
    'PYMODULE'),
-  ('token',
+  ('base64',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\token.py',
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\base64.py',
    'PYMODULE'),
   ('tracemalloc',
    "c:\\users\\kasper's "
@@ -134,10 +162,6 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\signals.py',
    'PYMODULE'),
-  ('signal',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\signal.py',
-   'PYMODULE'),
   ('unittest.main',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\main.py',
@@ -161,10 +185,6 @@
   ('logging',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('string',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\string.py',
    'PYMODULE'),
   ('unittest.result',
    "c:\\users\\kasper's "
@@ -190,10 +210,6 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\socket.py',
    'PYMODULE'),
-  ('selectors',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\selectors.py',
-   'PYMODULE'),
   ('shutil',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\shutil.py',
@@ -217,10 +233,6 @@
   ('lzma',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\lzma.py',
-   'PYMODULE'),
-  ('stat',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\stat.py',
    'PYMODULE'),
   ('email.message',
    "c:\\users\\kasper's "
@@ -338,14 +350,6 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\socketserver.py',
    'PYMODULE'),
-  ('posixpath',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\posixpath.py',
-   'PYMODULE'),
-  ('genericpath',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\genericpath.py',
-   'PYMODULE'),
   ('mimetypes',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\mimetypes.py',
@@ -382,10 +386,6 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\tty.py',
    'PYMODULE'),
-  ('subprocess',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\subprocess.py',
-   'PYMODULE'),
   ('tempfile',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\tempfile.py',
@@ -393,6 +393,14 @@
   ('urllib.parse',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tokenize',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\lib\\token.py',
    'PYMODULE'),
   ('platform',
    "c:\\users\\kasper's "
@@ -550,33 +558,29 @@
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('ntpath',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\ntpath.py',
-   'PYMODULE'),
   ('fnmatch',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('os',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\lib\\os.py',
    'PYMODULE')],
- [('VCRUNTIME140.dll',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('python36.dll',
+ [('python36.dll',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\python36.dll',
    'BINARY'),
+  ('VCRUNTIME140.dll',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('unicodedata',
+   "c:\\users\\kasper's "
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
   ('_bz2',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('unicodedata',
+  ('select',
    "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_socket',
    "c:\\users\\kasper's "
@@ -585,10 +589,6 @@
   ('_lzma',
    "c:\\users\\kasper's "
    'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\_lzma.pyd',
-   'EXTENSION'),
-  ('select',
-   "c:\\users\\kasper's "
-   'pc\\appdata\\local\\programs\\python\\python36\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_hashlib',
    "c:\\users\\kasper's "
