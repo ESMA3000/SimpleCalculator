@@ -82,7 +82,7 @@ def Calcutor(user_string):
     except:
         return None
 
-def interface():
+def main():
 
     print("[ESMA©]****************Calculator****************[ESMA©]\nYou can do two operands and one operator (2+2) or one operator and one operand (@16).\nAvalible operators: + - * /\n% = modulus\n@ = squareroot\n! = factorial\nl = log_2\n& = greatest common divisor\nPress q to exit the program :)")
     
@@ -102,5 +102,6 @@ def interface():
         else:
             print("\nIncorret input. Try again!")
 
-interface()
+if __name__ == "__main__":
+    main()
 
